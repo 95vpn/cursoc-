@@ -10,8 +10,16 @@ namespace cursoc_
     {
         static void Main(string[] args)
         {
-            int year = 10;
-            Console.WriteLine("Hello world" + year);
+            int year = Convert.ToInt16("52");
+            double doble = 2.2;
+
+            string nombre = "Joel";
+
+            String nombres = "Alex Joel";
+
+            decimal decimals = 2.07M;
+            float flotante = 8.3F;
+            Console.WriteLine(nombres + "Hello world! {0} {1} {2} {3}", year, doble, nombre, decimals);
 
             Console.ReadLine(); 
         }
