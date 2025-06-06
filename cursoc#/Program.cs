@@ -73,21 +73,59 @@ namespace cursoc_
             Console.ReadLine();
             */
 
+            /*
             int valor1 = 9;
             int valor2 = 8;
 
             double valor3 = 10;
-            double valor4 = 10; 
+            double valor4 = 11;
+            string name;
 
             var data = valor1 != valor2;
-
-            if (valor1 != valor2 || valor3 == valor4)
+            
+            if (data)
             {
-                Console.WriteLine("Resultado {0}", data);
-
+                name = "Alex";
             }
+            else
+            {
+                name = "Joel";
+            }
+            
+            name = data ? "Alex" : "Joel";
+            Console.WriteLine("Resultado {0}", name);
 
             Console.ReadLine();
+            */
+
+            /*
+            string[] cadenas = new string[5];
+            cadenas[0] = "Joel";
+            cadenas[1] = "John";
+            cadenas[2] = "Seidy";
+            cadenas[3] = "Cindy";
+            cadenas[4] = "Alex";
+            string[] name = { "Joel", "John", "Seidy", "Cindy", "Alex" };
+            int[] age = new int[5];
+            age[0] = 5;
+            age[1] = 34;
+            age[2] = 23;
+            age[3] = 53;
+            age[4] = 54;
+            int[] ages = { 8, 45, 23, 54 };
+
+            Console.WriteLine("Resultado {0} {1} {2} {3} {4} {5}", cadenas.Length, cadenas[2], cadenas[3], name[1], age[2], ages[3]);
+
+            Console.ReadLine();
+            */
+
+            double[,] doble2 = new double[2, 2] { { 6, 3.6 }, { 6.3, 5.6 } };
+
+            double[,,] doble3 = new double[2, 2, 3] { { { 3.2, 6.9, 8.9 }, { 6.8, 5.7, 5.9 } }, { { 5.2, 4.3, 1.8 }, { 5.6, 8.4, 8.7 } } };
+
+            Console.WriteLine("Resultado {0} {1}", doble2[1, 0], doble3[0, 0, 2 ]);
+
+           
 
         }
     }
