@@ -119,13 +119,44 @@ namespace cursoc_
             Console.ReadLine();
             */
 
+            /*
             double[,] doble2 = new double[2, 2] { { 6, 3.6 }, { 6.3, 5.6 } };
 
             double[,,] doble3 = new double[2, 2, 3] { { { 3.2, 6.9, 8.9 }, { 6.8, 5.7, 5.9 } }, { { 5.2, 4.3, 1.8 }, { 5.6, 8.4, 8.7 } } };
 
             Console.WriteLine("Resultado {0} {1}", doble2[1, 0], doble3[0, 0, 2 ]);
+            */
 
-           
+            /*
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Resultado: {0}", i);
+            }
+
+
+            for (int i = 10; i > 0; i--)
+            {
+                Console.WriteLine("Resultado: {0}", i);
+            }
+            Console.ReadLine();
+            */
+
+            string[] name = { "Alex", "Joel", "Pdhn" };
+            int[] age = { 52, 45, 65 };
+            /*
+            for (int i = 0; i < name.Length; i++)
+            {
+                Console.WriteLine("Resultado {0} ", name[i] + " age " + age[i]);
+            }
+            */
+            Console.ReadLine();
+
+            foreach (var item in name)
+            {
+                Console.WriteLine("Resultado {0}", item);
+            }
+
+            Console.ReadLine();
 
         }
     }
