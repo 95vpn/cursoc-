@@ -160,6 +160,7 @@ namespace cursoc_
             Console.ReadLine();
             */
 
+            /*
             int pisos = 0;
             int[] arreglo = new int[1];
 
@@ -171,7 +172,7 @@ namespace cursoc_
                 int[] pascal = new int[i];
 
                 for (int j = pisos; j < i; j--)
-                {
+                { 
                     Console.Write(" ");
                 }
 
@@ -192,6 +193,15 @@ namespace cursoc_
 
             }
             Console.ReadLine();
+            */
+
+            var data = "Joel";
+            switch (data)
+            {
+                case "Joel"
+                default:
+                    break;
+            }
 
         }
     }
