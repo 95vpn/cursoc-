@@ -195,13 +195,32 @@ namespace cursoc_
             Console.ReadLine();
             */
 
-            var data = "Joel";
+            /*
+            var data = "Alex";
             switch (data)
             {
-                case "Joel"
+                case "Joel":
+                    Console.WriteLine("Joel {0} ", data);
+                    break;
+
+                case "Alex":
+                    Console.WriteLine("Alex {0} ", data );
+                    break;
                 default:
+                    Console.WriteLine("Case {0}", "default");
                     break;
             }
+            */
+
+            var data = 2;
+            var result = data switch
+            {
+                1 => "Alex",
+                2 => "Jooel",
+                3 => "PDHN"
+            };
+            Console.WriteLine(result);
+            Console.ReadLine();
 
         }
     }
