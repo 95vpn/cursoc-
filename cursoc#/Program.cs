@@ -212,14 +212,62 @@ namespace cursoc_
             }
             */
 
+            /*
             var data = 2;
             var result = data switch
             {
                 1 => "Alex",
                 2 => "Jooel",
-                3 => "PDHN"
+                3 => "PDHN",
             };
+
             Console.WriteLine(result);
+            Console.ReadLine();
+            */
+
+            /*
+            var (a, b, opcion) = (2,6,"+");
+            var result = data switch
+            {
+                "+" => a+b,
+                "-" => a-b,
+                "*" => b*a
+            };
+            Console.Write("Resultado {0} ", result);
+            Console.ReadLine();
+            */
+            
+            var valor = true;
+            var count = 1;
+
+            while (valor)
+            {
+
+                if (count == 6)
+                { 
+                    valor = false;
+                }
+
+                count++;
+                Console.Write("Resultado {0} ", count);
+                
+            }
+
+            Console.ReadLine();
+
+            valor = true;
+            do
+            {
+                if (count == 6)
+                {
+                    valor = false;
+                }
+
+                count++;
+                Console.Write("Resultado de do while {0} ", count);
+            }
+            while (valor);
+
             Console.ReadLine();
 
         }
