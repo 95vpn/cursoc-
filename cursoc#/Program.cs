@@ -236,7 +236,8 @@ namespace cursoc_
             Console.Write("Resultado {0} ", result);
             Console.ReadLine();
             */
-            
+
+            /*
             var valor = true;
             var count = 1;
 
@@ -269,6 +270,19 @@ namespace cursoc_
             while (valor);
 
             Console.ReadLine();
+            */
+            /*
+            string name1 = "Alex";
+            string name2 = "Joel";
+            string name3 = name1;
+            name1 += name2;
+
+            Console.WriteLine("Name: {0}", name1);
+            Console.ReadLine();
+            */
+
+
+
 
         }
     }
