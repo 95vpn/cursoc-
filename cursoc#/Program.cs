@@ -281,8 +281,33 @@ namespace cursoc_
             Console.ReadLine();
             */
 
+            /*
+            var nombre = (nombre1: "Alex", age1: 23, nombre2: "Joel");
 
+            Console.WriteLine($"{nombre.nombre1} age {nombre.age1} {nombre.nombre2}");
+            //Formato compuesto
+            Console.WriteLine("Nombre {1} age {0}", nombre.nombre2, nombre.age1);
+            Console.ReadLine(); 
+            */
 
+            /*
+            var curso = "Curso de C# desde cero";
+
+            Console.WriteLine("Cadena {0}", curso.Substring(9, 11));
+            var sub = curso.Replace("desde cero", ".net core");
+            var sub1 = curso.Remove(5,11);
+            Console.WriteLine(sub);
+            Console.WriteLine(sub1);
+
+            Console.ReadLine();
+            */
+
+            var curso = "Curso de C# desde cero";
+            var data = curso.IndexOf("desde");
+            var data1 = curso.ToCharArray();
+            Console.WriteLine(data);
+            Console.WriteLine(data1);
+            Console.ReadLine();
 
         }
     }
