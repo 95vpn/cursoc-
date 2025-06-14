@@ -302,11 +302,33 @@ namespace cursoc_
             Console.ReadLine();
             */
 
+            /*
             var curso = "Curso de C# desde cero";
+            var name = "Alex";
             var data = curso.IndexOf("desde");
             var data1 = curso.ToCharArray();
+            var data2 = curso.ToLower();
+            var data3 = curso.ToUpper();
+            var data4 = curso.Equals(name);
+            foreach (var item in curso)
+            {
+                Console.WriteLine(item);
+            }
             Console.WriteLine(data);
-            Console.WriteLine(data1);
+            Console.WriteLine(data1[2]);
+            Console.ReadLine();
+            */
+
+
+            StringBuilder names = new StringBuilder("Alex Pagoada");
+            //names[0] = 'a';
+            names.AppendLine();
+            names.Append("Joel").Append(" ").Append("Suazo");
+            //names.Capacity = 17;
+            names.AppendLine();
+            names.AppendFormat(" Age {0}", 50);
+            Console.WriteLine(names.ToString());
+
             Console.ReadLine();
 
         }
